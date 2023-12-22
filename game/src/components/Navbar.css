@@ -1,0 +1,48 @@
+body{
+    background-color: lightgrey;
+}
+.navbar .navbar-element .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color : white;
+    text-align: center;
+    width: 100%;
+    font-family: 'Rowdies', cursive;
+    background: hsla(0, 0%, 0%, 1);
+    background: linear-gradient(180deg, hsla(0, 0%, 0%, 1) 0%, hsla(358, 99%, 28%, 1) 100%);
+    height: 10vh;
+    font-size: 300%;
+    border-bottom: 4px dotted black;
+   
+    
+
+}
+.navitems{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    font-weight: bolder;
+    justify-content: space-around;
+    font-family: Raleway;
+    text-align: center;
+    background-color: #7eb11e;
+    box-sizing: border-box;
+}
+.navitem {
+    padding: 10px;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+ .home{
+    border-right : 2px solid black;
+}
+.navitem:hover{
+    border-bottom: 6px solid navy;
+}
+.navbar{
+    margin : auto;
+    width : 80%;
+    
+    
+}
